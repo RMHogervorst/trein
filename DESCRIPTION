@@ -1,0 +1,12 @@
+Package: trein
+Version: 0.0.0.9000
+Title: A 'RStudio' addin to quickly check if your train is going 
+Description: Check the first travel advises from NS for your regular trip.
+    Clicking the addin shows travel advises. This addin uses nsapi for backend.
+Authors@R: person("Roel M.", "Hogervorst", email = "hogervorst.rm@gmail.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Imports: 
+    nsapi
